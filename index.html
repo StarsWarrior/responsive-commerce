@@ -7,13 +7,14 @@
     <title>Penguin Fasion</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/all.min.css">
 </head>
 
 <body>
     <header class="container">
         <!-- Navbar Part Start -->
-        <nav class="navbar navbar-expand-lg navbar-light">
+        <nav class="navbar navbar-expand-lg navbar-light sticky-top">
             <div class="container-fluid mt-5 ms-3 me-5">
                 <a class="navbar-brand" href="#">
                     <img src="images/Logo, Icon/logo.png" alt="">
@@ -29,13 +30,13 @@
                             <a class="nav-link active" aria-current="page" href="#">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Product</a>
+                            <a class="nav-link" href="#product">Product</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">About Us</a>
+                            <a class="nav-link" href="#about">About Us</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Contact Us</a>
+                            <a class="nav-link" href="#contact">Contact Us</a>
                         </li>
 
                         </li>
@@ -46,31 +47,46 @@
         <!-- Navbar Part End -->
 
         <!-- Banner Part Start -->
-        <section class="banner">
+        <section class="banner bg-light">
             <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
                 <div class="carousel-inner">
                     <div class="carousel-item active">
-                        <div class="row">
+                        <div class="row d-flex align-items-center mt-5 p-5">
                             <div class="col-md-5">
-                                <img src="images/Logo, Icon/Group 33102.png" class="d-block w-100" alt="...">
+                                <img src="images/Logo, Icon/slide1.png" class="d-block w-100" alt="...">
                             </div>
-                            <div class="col-md-7"></div>
+                            <div class="col-md-7">
+                                <h1><span class="header-orange">Nike React</span></h1>
+                                <h1><span class="header-purple">Infinity Run 2</span></h1>
+                                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Placeat, est?</p>
+                                <button class="btn btn-primary"><i class="fas fa-shopping-cart"></i> BUY NOW</button>
+                            </div>
                         </div>
                     </div>
                     <div class="carousel-item">
-                        <div class="row">
+                        <div class="row d-flex align-items-center">
                             <div class="col-md-5">
-                                <img src="images/Logo, Icon/Group 33091.png" class="d-block w-100" alt="...">
+                                <img src="images/Logo, Icon/slide2.png" class="d-block w-100" alt="...">
                             </div>
-                            <div class="col-md-7"></div>
+                            <div class="col-md-7">
+                                <h1><span class="header-orange">Nike React</span></h1>
+                                <h1><span class="header-purple">Infinity Run 2</span></h1>
+                                <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi, ut!</P>
+                                <button class="btn btn-primary"><i class="fas fa-shopping-cart"></i> BUY NOW</button>
+                            </div>
                         </div>
                     </div>
                     <div class="carousel-item">
-                        <div class="row">
+                        <div class="row d-flex align-items-center">
                             <div class="col-md-5">
-                                <img src="images/Logo, Icon/green.png" class="d-block w-100" alt="...">
+                                <img src="images/Logo, Icon/slide3.png" class="d-block w-100" alt="...">
                             </div>
-                            <div class="col-md-7"></div>
+                            <div class="col-md-7">
+                                <h1><span class="header-orange">Nike React</span></h1>
+                                <h1><span class="header-purple">Infinity Run 2</span></h1>
+                                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deserunt, nesciunt.</p>
+                                <button class="btn btn-primary"><i class="fas fa-shopping-cart"></i> BUY NOW</button>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -85,7 +101,7 @@
             </div>
         </section>
     </header>
-    <main class="container">
+    <main id="product" class="container">
         <!-- Casual Shoes Part Start -->
         <section class="casual-light mt-5 p-3">
             <div class="container">
@@ -103,7 +119,7 @@
                         <div>
                             <h3 style="color: orangered;">$234</h3>
                         </div>
-                        <div><button class="btn btn-success">Buy Now</button></div>
+                        <div><button class="btn btn-success"><i class="fas fa-shopping-cart"></i> Buy Now</button></div>
                     </div>
                 </div>
                 <div class="card ms-3">
@@ -117,7 +133,7 @@
                         <div>
                             <h3 style="color: orangered;">$234</h3>
                         </div>
-                        <div><button class="btn btn-success">Buy Now</button></div>
+                        <div><button class="btn btn-success"><i class="fas fa-shopping-cart"></i> Buy Now</button></div>
                     </div>
                 </div>
                 <div class="card ms-3">
@@ -131,7 +147,7 @@
                         <div>
                             <h3 style="color: orangered;">$234</h3>
                         </div>
-                        <div><button class="btn btn-success">Buy Now</button></div>
+                        <div><button class="btn btn-success"><i class="fas fa-shopping-cart"></i> Buy Now</button></div>
                     </div>
                 </div>
             </div>
@@ -155,7 +171,7 @@
                         <div>
                             <h3 style="color: orangered;">$234</h3>
                         </div>
-                        <div><button class="btn btn-success">Buy Now</button></div>
+                        <div><button class="btn btn-success"><i class="fas fa-shopping-cart"></i> Buy Now</button></div>
                     </div>
                 </div>
                 <div class="card ms-3">
@@ -169,7 +185,7 @@
                         <div>
                             <h3 style="color: orangered;">$234</h3>
                         </div>
-                        <div><button class="btn btn-success">Buy Now</button></div>
+                        <div><button class="btn btn-success"><i class="fas fa-shopping-cart"></i> Buy Now</button></div>
                     </div>
                 </div>
                 <div class="card ms-3">
@@ -183,18 +199,73 @@
                         <div>
                             <h3 style="color: orangered;">$234</h3>
                         </div>
-                        <div><button class="btn btn-success">Buy Now</button></div>
+                        <div><button class="btn btn-success"><i class="fas fa-shopping-cart"></i> Buy Now</button></div>
                     </div>
                 </div>
             </div>
         </section>
         <!-- Formal Shoes Part End -->
         <!-- Middle Info End -->
-        ------------------------------------
+        <section id="about" class="info-part">
+            <div class="info">
+                
+                    <div class="mt-5">
+                        <div class="card mb-3" style="max-width: 540px;">
+                            <div class="row g-0 shadow">
+                              <div class="col-md-4 info-image rounded-circle">
+                                <img src="images/Logo, Icon/image 12.png" alt="...">
+                              </div>
+                              <div class="col-md-8">
+                                <div class="card-body">
+                                  <h5 class="card-title">Find the Perfect Fit</h5>
+                                  <p class="card-text">Everybody is different, which is why we offer styles for every body.</p>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                
+                          <div class="card mb-3" style="max-width: 540px;">
+                            <div class="row g-0 shadow">
+                              <div class="col-md-4 info-image rounded-circle">
+                                <img src="images/Logo, Icon/image 13.png" alt="...">
+                              </div>
+                              <div class="col-md-8">
+                                <div class="card-body">
+                                  <h5 class="card-title">Find the Perfect Fit</h5>
+                                  <p class="card-text">Everybody is different, which is why we offer styles for every body.</p>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                
+                          <div class="card mb-3" style="max-width: 540px;">
+                            <div class="row g-0 shadow">
+                              <div class="col-md-4 info-image rounded-circle">
+                                <img src="images/Logo, Icon/image 14.png" alt="...">
+                              </div>
+                              <div class="col-md-8">
+                                <div class="card-body">
+                                  <h5 class="card-title">Find the Perfect Fit</h5>
+                                  <p class="card-text">Everybody is different, which is why we offer styles for every body.</p>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                    </div>
+                
+
+                  
+                    <div class="align-items-center; me-5 mt-5 ms-5 mb-5 ">
+                        <img style="height: 350px; width: 600px; align-items: center; align-items-center " src="images/Logo, Icon/XMLID 1.png" alt="">
+                    </div>
+                  
+            </div>
+        </section>
+        
         <!-- Middle Info End -->
 
         <!-- subscription part start -->
-        <section style="height: 400px;" class="d-flex align-items-center justify-content-center bg-info rounded">
+        <section id="contact" style="height: 400px;" class="d-flex align-items-center justify-content-center bg-info rounded">
             <div>
                 <h1>
                     GET IN TOUCH
@@ -214,6 +285,9 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
         crossorigin="anonymous"></script>
+
+        <script src="https://use.fontawesome.com/f9c4a81372.js"></script>
+        <script src="js/all.min.js"></script>
 </body>
 
 </html>

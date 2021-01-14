@@ -14,38 +14,38 @@
     display: grid;
     grid-template-rows: repeat(3, 1fr);
     grid-gap: 30px;
+}
+.info-image img {
+    height: 100px;
+    width: 150px;
+}
 
-}
-.info{
-    display: flex;
-    align-items: center;
-    height: 100px;
-    position: relative;
-}
-.info img{
-    height: 100px;
-    margin-right: 20px;
-    margin-top: 30px;
-}
-.info-p{
-    margin-left: 120px;
-    width: 100px;
-    display: inline;
-}
-.list-item{
-    display: block;
-}
-.info-img img{
-    display: flex;
-    height: 300px;
-    width: 1200px;
-    align-items: center;
-    margin-top: 200px;
-    margin-left: 100px;
-}
 footer{
     align-items: center;
     text-align: center;
     margin-top: 5PX;
     background-color: gainsboro;
 }
+
+.info{
+    display: flex;
+}
+.header-orange{
+    color: orange;
+}
+.header-purple{
+    color: orchid;
+}
+@media only screen and (max-width: 600px) {
+    .info{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .media-size{
+        height: 100px;
+        width: 200;
+        margin-right: 50px;
+    }
+    
+
+  }
